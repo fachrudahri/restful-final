@@ -1,0 +1,178 @@
+body {
+    font-family: 'Work Sans', sans-serif !important;
+
+}
+
+@media (max-width: 825px) {
+    .row {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1000px) {
+    .slogan h1 {
+        font-size: 40px !important;
+    }
+}
+
+@media (max-width: 720px) {
+    .hero-hp img {
+        width: 180px !important;
+    }
+
+    .slogan h1 {
+        margin-top: 25px !important;
+    }
+}
+
+.navbar {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.navbar-brand {
+    color: #6bb9f0 !important;
+}
+
+.nav-item a {
+    color: #000 !important;
+    font-family: 'roboto'
+}
+
+.navbar-nav a:hover {
+    color: red !important;
+}
+
+.hero {
+    background-color: #6bb9f0;
+    width: 100%;
+    height: auto;
+}
+
+.hero-hp img {
+    width: 250px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.slogan h1{
+    color: #fff;
+    font-size: 55px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.slogan p {
+    margin-top: 30px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.text-fitur h3{
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.list-fitur {
+    margin-bottom: 50px;
+}
+
+.list-fitur img{
+    width: 170px;
+    margin-bottom: 40px;
+}
+
+.bag-fitur {
+    margin-top: 50px;
+}
+
+.bag-fitur h5 {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.download {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.download img{
+    width: 190px;
+    margin-top: 10px;
+    margin-right: 20px;
+    transition: all 1s cubic-bezier(0.815, 0.005, 0.18, 1.005);
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-color {
+    background-color: #24252a;
+    color: #fff;
+}
+
+.information i {
+    font-size: 18px;
+}
+
+.information i {
+    font-size: 18px;
+}
+.information a {
+    margin-left: 5px;
+    color: #6bb9f0;
+}
+
+.information a {
+text-decoration: none;
+}
+
+.foot-bag-two {
+    margin-top: 10px;
+}
+
+.terms a{
+    font-size: 20px;
+    font-weight: bold;
+    color: #6bb9f0;
+    margin-top: 5px;
+}
+
+.terms a:hover {
+    text-decoration: none;
+}
+
+.iconsos i {
+    padding: 8px;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: -5px;
+    transition: all 1s cubic-bezier(0.815, 0.005, 0.18, 1.005);
+}
+
+.iconsos i:hover {
+    padding: 8px;
+    color: #6bb9f0;
+    transition: 0.54ms;
+}
+
+.copyright {
+    margin-top: 3px;
+    font-weight: lighter !important;
+}
+
+.tableku table {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}

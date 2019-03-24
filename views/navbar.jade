@@ -1,0 +1,15 @@
+extends layout
+
+block navbar
+  // Navbar
+  nav.navbar.navbar-expand-lg.navbar-light.bg-light
+    .container
+      a.navbar-brand(href='#') LOGO
+      button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarNav', aria-controls='navbarNav', aria-expanded='false', aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+      #navbarNav.collapse.navbar-collapse.justify-content-end
+        ul.navbar-nav
+          li.nav-item.active
+            a.nav-link(href='#') Beranda
+          li.nav-item
+            a.nav-link(href='#') Fitur

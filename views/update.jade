@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1= title
+  div
+    a(href="/") Home
+  div
+    form(method='post' action='/final/succes-update')
+      input(type="hidden" name='code' value='#{result.code}')
+      p Name :
+      input(type='text' name='name' value='#{result.name}')
+      p Departement :
+      input(type='text' name='departement' value='#{result.departement}')
+      p Age :
+      input(type='text' name='age' value='#{result.age}')
+      button(type='submit') update

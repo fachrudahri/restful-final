@@ -1,0 +1,23 @@
+extends layout
+
+block content
+  .h-index.text-center
+    h1= title
+  .register.text-center
+    a(href="/final/register") Create
+  .tableku
+    table(border='1', cellspacing='0', cellpadding='5')
+        thead
+            th CODE
+            th NAME
+            th DEPARTEMENT
+            th AGE
+            th Action
+        tbody
+            each a in results
+              tr
+                td #{a.code}
+                td #{a.name}
+                td #{a.departement}
+                td #{a.age}
+                td #[a.detail(href='/final/detail/'+a.code) Detail]  #[a.edit(href='/final/update/'+a.code) Edit]  #[a.delete(href='/final/delete/'+a.code) Delete]
